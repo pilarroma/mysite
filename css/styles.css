@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  color: #40514E;
+  font-size: 1.2em;
+  font-family: Century Schoolbook, "Arial";
+  text-align: center;
+}
+h1 {
+  margin: 30px auto 0 auto;
+  color: rgb(255,255,255);
+  font-size: 3em;
+}
+h2 {
+  font-weight: bolder;
+  color: black;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+h3 {
+  color: #1778B4;
+}
+.top-container {
+  background-color: #6AB4E3;
+  position: relative;
+  padding-top: 150px;
+}
+.intro {
+  width: 30%;
+  align-content: center;
+  text-align: center;
+  margin: auto auto 50px auto;
+}
+.description {
+  margin: -15px auto -2px auto;
+}
+.cloudgate {
+   position: relative;
+   align-content: center;
+   width: 33%; /* width: 500px height: 900px */
+}
+.perfil-img {
+  position: relative;
+}
+.estudios-row {
+  width: 50%;
+  align-content: center;
+  text-align: justify;
+  margin: 25px auto 50px auto;
+  line-height: 2;
+}
+.certificado-link {
+  color: #008893;
+}
+.certificado-link:hover {
+  color: #ACC1A1;
+}
+.experiencia-row {
+  width: 50%;
+  align-content: center;
+  text-align: justify;
+  margin: 25px auto 50px auto;
+  line-height: 2;
+}
+.middle-container {
+  margin: 50px 0;
+}
+.bottom-container {
+  background-color: #6AB4E3;
+  color: black;
+  padding: 20px 0 20px;
+}
+
+.Linkedin-link {
+  color:  white;
+  text-decoration: none;
+}
+.Linkedin-link:hover{
+	color: #95389e;
+}
+
+.copyright {
+  color: #40514E;
+  font-size: 0.75em;
+  padding-top: 20px;
+}

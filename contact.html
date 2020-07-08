@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Pilar Rodríguez Martínez - Personal Site</title>
+		
+		<!-- Enlace a Plantilla SignIn Bootstrap -->
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/sign-in/">
+		<link rel="icon" href="icons/favicon.ico">
+		<!-- CSS StyleSheet -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- styles.css -->
+		<link rel="stylesheet" href="css/contact_styles.css">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Spirax&display=swap" rel="stylesheet">
+		<!-- jQuery - popper.JS - Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-toggler navbar-light fixed-top" style="background-color: white">
+			<a class="navbar-brand" href="#">
+				<img src="images\CloudGateIcon-Small.png"  height="35px" width="60px">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Mi CV</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Contacto<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="middle-container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="card border-secondary mb-3" style="max-width: 35rem;">
+						<div class="card-body">
+							<div class="form-row">
+								<div class="col-md-6">
+									<p class="card-img"><img class="avatar" src="images/hi.png" alt="Avatar" style="width: 180px"></p>
+								</div>
+								<div class="col-md-6" style="padding-top: 12px">
+									Puedes contactar conmigo escribiendo un mail a la siguiente dirección: 
+									<p class="email">pilar.rodriguez.martinez88@gmail.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-secondary mb-3" style="max-width: 35rem;">
+						<div class="card-body text-center">
+							<img class="avatar rounded-circle" src="" alt="Avatar">
+							<p class="card-text">No dudes en contactar conmigo si tienes alguna oportunidad de trabajo relacionada con la programación, diseño web, estadística, análisis de datos, matemáticas o cualquier trabajo en el que creas que mi perfil puede encajar</p>
+						</div>
+					</div>
+					<div class="card border-secondary mb-3" style="max-width: 35rem;">
+						<div class="card-body text-center">
+							<p class="card-text">También puedes contactar conmigo si tienes cualquier duda de matemáticas de cualquiera de los niveles (primaria, ESO, Bachillerato) </p>
+						</div>
+						<p>
+							<img class="libros" src="images/libros.png" alt="Libros" style="width: 70%; height: 100%">
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card border-secondary mb-3" style="max-width: 35rem;">
+						<div class="card-body text-secondary" style="margin-left: 2%">
+							<p class="card-text">Si lo prefieres puedes contactar conmigo directamente desde esta página completando el siguiente formulario y haciendo clic en enviar</p>
+							<form id="contact-form" class="contact" method="POST" action="send.php">
+								<img class="mb-4" src="images/CloudGateIconSinBlancos.png" alt="" width="200" height="130">
+								<h1 class="h4 mb-4 font-weight-normal">Contacta conmigo</h1>
+								<input type="text" name="name" class="form-control top" placeholder="Nombre y Apellidos" required="required" autofocus="">
+								<br>
+								<input type="email" name="email" class="form-control middle" placeholder="Email" required="required">
+								<br>
+								<div class="form-group">
+									<textarea name="message" id="message" class="form-control" aria-label="With textarea" placeholder="Mensaje" required="required" rows="8"></textarea>
+								</div>
+								<button type="submit" class="btn btn-lg btn-outline-primary btn-block">Enviar</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bottom-container">
+			<p>También puedes encontrame haciendo clic en mi &nbsp;<a class="Linkedin-link" href="https://www.linkedin.com/"><img src="./images/icon-ln.png" alt="icono-linkedin" width="25em">&nbsp;LinkedIn: Pilar Rodríguez Martínez</a></p>
+			<p class="copyright">© 2020 Pilar Rodríguez Martínez.</p>
+		</div>
+	</body>
+</html>

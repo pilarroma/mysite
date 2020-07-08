@@ -1,0 +1,82 @@
+body {
+  margin-top: 0;
+  color: #40514E;
+  font-size: 1.2em;
+  font-family: Century Schoolbook, "Arial";
+  text-align: center;
+}
+
+body .middle-container {
+  margin-left: 6%;
+  margin-right: 0;
+}
+
+.email {
+  font-size:85%;
+  padding-top: 5%;
+}
+
+.card-img {
+  text-align: left;
+}
+
+.card-body {
+  padding-left: 0;
+}
+
+.contact {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.contact .checkbox {
+  font-weight: 400;
+}
+
+.contact .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-control .bottom {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact .form-control:focus {
+  z-index: 2;
+}
+
+.middle-container {
+  margin-top: 100px;
+  margin-right: 6%;
+}
+
+.top-container {
+  position: relative;
+  text-align: justify;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #6AB4E3;
+  color: black;
+  padding: 20px 0 20px;
+}
+
+.Linkedin-link {
+  color:  white;
+  text-decoration: none;
+}
+.Linkedin-link:hover{
+  color: #95389e;
+}
